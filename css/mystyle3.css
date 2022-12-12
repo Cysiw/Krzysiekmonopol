@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Popins';
+    src: url(Poppins/Poppins-Italic.ttf);
+    
+}
+@font-face {
+    font-family: 'Monteserrat';
+    src: url(Montserrat\static\Montserrat-Light.ttf);
+}
+html{
+    width: 100%;
+    height: 100vh;
+}
+body  {
+    background: rgb(63, 107, 46);
+    font-family: "comic-sans", comicsan;
+    margin: 0;
+ 
+}
+main{
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav{
+
+    background-color: rgb(6, 68, 14);
+    width: 100%;
+    
+}
+.navimg{
+    width: 60px;
+    height: 53px;
+    float: left;
+}
+.navkoszyk{
+    width: 50px;
+    height: 53px;
+    background-color: rgb(111, 114, 28);
+    float: right;
+}
+.navkoszyk img{
+    width: 100%;
+    height: 100%;
+}
+.artykuly{
+    width: 85%;
+    height: 100%;
+}
+.kontakt{
+    display:flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    
+}
+.kont{  
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+   justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.kontbig{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.kont p{
+    width: auto;
+    height: auto;
+    
+}
+h1{
+    text-align: center;
+}
+
+aside{
+    width: 12vw;
+    height: 100%;
+    float: right;
+    margin-left: 25px;
+
+}
+.asidetxt{
+    float: none;
+}
+
+aside img{
+    width: 100%;
+    float:none;
+    height: 100%;
+}
+.reklamatext{
+    float: none;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    background:none;
+    border: none;
+   
+}
+
+
+
+
+p {
+    background-color: rgb(6, 68, 14);
+    font-family: 'Monteserrat';
+    border: 2px black solid;
+    padding: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+ul{
+    display: inline;
+}
+li {
+    margin-left:0;
+    }
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+ul li {
+    display: inline-block;
+
+}
+ul li:hover{
+    background-color: grey;
+}
+ul li:hover ul{
+    display: block;
+
+}
+ul li ul{
+    position: absolute;
+    width: 200px;
+    display: none;
+    padding: 0;
+    
+}
+ul li ul li{
+    background-color: grey;
+    display: block; 
+
+}
+ul li ul li a{
+    display: block !important;
+    
+}
+ul li ul li:hover{
+    background-color: grey;
+}
+#hidden{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+#hidden.open{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 100%;
+    margin: 0px;
+}
+#hidden div{
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 500px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#hidden div div{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+#hidden div p{
+    width: auto;
+    height: auto;
+}
