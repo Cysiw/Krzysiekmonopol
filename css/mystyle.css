@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Popins';
+    src: url(Poppins/Poppins-Italic.ttf);
+    
+}
+@font-face {
+    font-family: 'Monteserrat';
+    src: url(Montserrat\static\Montserrat-Light.ttf);
+}
+html{
+    width: 100%;
+    height: 100vh;
+}
+body  {
+    background: rgb(63, 107, 46);
+    font-family: "comic-sans", comicsan;
+    margin: 0;
+ 
+}
+main{
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Popins';
+    text-shadow: white 0.5px 2px 2px;
+}
+.tytul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: olivedrab;
+
+}
+
+nav{
+
+    background-color: rgb(6, 68, 14);
+    width: 100%;
+    
+}
+.navimg{
+    width: 60px;
+    height: 53px;
+    float: left;
+}
+.navkoszyk{
+    width: 50px;
+    height: 53px;
+    background-color: rgb(111, 114, 28);
+    float: right;
+}
+.navkoszyk img{
+    width: 100%;
+    height: 100%;
+}
+
+aside{
+    width: 12vw;
+    height: 100%;
+    float: right;
+    margin-left: 25px;
+
+}
+.asidetxt{
+    float: none;
+}
+
+aside img{
+    width: 100%;
+    float:none;
+    height: 100%;
+}
+.reklamatext{
+    float: none;
+}
+
+
+
+.artykuly{
+    width: 85%;
+}
+.ofirmie{ 
+    width: 100%;
+    height: 300px;
+
+}
+
+.ofirmieimg{
+    box-shadow: black 5px 5px 5px;
+    float: left;
+    display: flex;
+    margin-left: 5px;
+}
+.ofirmietxt{
+    display: flex;
+
+}
+.ofirmietxt p{
+    margin: 0px;
+    margin-left: 10px;
+}
+.galeria{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top: 20px;
+   margin-left: 35px;
+   margin-bottom: 20px;
+    
+    
+}
+.galeria img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    box-shadow: black 6px 3px 6px;
+}
+.galeria img:hover{
+    transform: scale(1.3);
+    transition: 2s;
+}
+.obrazek{
+    display: inline;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#Wlascityt{
+    float: left;
+
+
+}
+.wlasci{
+    float: right;
+    display: flex;
+    height:483px;
+
+}
+.wlasci img{
+    border: black 5px solid;
+    margin-top: 5px;
+    height: auto;
+}
+.wlasci p{
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    background:none;
+    border: none;
+   
+}
+.kontakt{
+    color: aqua;
+}
+
+
+p {
+    background-color: rgb(6, 68, 14);
+    font-family: 'Monteserrat';
+    border: 2px black solid;
+    padding: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+ul{
+    display: inline;
+}
+li {
+    margin-left:0;
+    }
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+ul li {
+    display: inline-block;
+
+}
+ul li:hover{
+    background-color: grey;
+}
+ul li:hover ul{
+    display: block;
+
+}
+ul li ul{
+    position: absolute;
+    width: 200px;
+    display: none;
+    padding: 0;
+    
+}
+ul li ul li{
+    background-color: grey;
+    display: block; 
+
+}
+ul li ul li a{
+    display: block !important;
+    
+}
+ul li ul li:hover{
+    background-color: grey;
+}
